@@ -40,6 +40,7 @@ jobs:
         python3 pyYes24_JeongiSaneop_.py
         python3 pyYes24_Jeppang_.py
         python3 pyYes24_Jige_.py
+        python3 pyYes24_Makeup_.py
   
     - name: Commits
       run : |
@@ -55,6 +56,7 @@ jobs:
         git add Yes24/JeongiSaneop/JeongiSaneop_*.json
         git add Yes24/Jeppang/Jeppang_*.json
         git add Yes24/Jige/Jige_*.json
+        git add Yes24/Makeup/Makeup_*.json
         git commit -m "차트 수집 완료"
     - name: Push
       uses: ad-m/github-push-action@master
