@@ -31,6 +31,7 @@ jobs:
     - name: Run Python scripts
       run: |
         python3 pyYes24_Geonseol_.py
+        python3 pyYes24_Hansik_.py
         
   
     - name: Commits
@@ -38,6 +39,7 @@ jobs:
         git config --global user.email "wlsakf23@gmail.com"
         git config --global user.name "kimyih"
         git add Yes24/Geonseol/Geonseol_*.json
+        git add Yes24/Hansik/Hansik_*.json
         git commit -m "차트 수집 완료"
     - name: Push
       uses: ad-m/github-push-action@master
