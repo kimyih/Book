@@ -35,6 +35,7 @@ jobs:
         python3 pyYes24_IIban_.py
         python3 pyYes24_Jegwa_.py
         python3 pyYes24_JeongboGineung_.py
+        python3 pyYes24_JeongboGisa_.py
         
   
     - name: Commits
@@ -46,6 +47,7 @@ jobs:
         git add Yes24/IIban/IIban_*.json
         git add Yes24/Jegwa/Jegwa_*.json
         git add Yes24/JeongboGineung/JeongboGineung_*.json
+        git add Yes24/JeongboGisa/JeongboGisa_*.json
         git commit -m "차트 수집 완료"
     - name: Push
       uses: ad-m/github-push-action@master
