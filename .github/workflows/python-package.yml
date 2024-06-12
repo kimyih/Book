@@ -57,6 +57,7 @@ jobs:
         python3 pyAladin_Jige_.py
         python3 pyAladin_Makeup_.py
         python3 pyAladin_Nail_.py
+        python3 pyAladin_Pibu_.py
         
   
     - name: Commits
@@ -90,6 +91,7 @@ jobs:
         git add Aladin/Jige/Jige_*.json
         git add Aladin/Makeup/Makeup_*.json
         git add Aladin/Nail/Nail_*.json
+        git add Aladin/Pibu/Pibu_*.json
         
         git commit -m "차트 수집 완료"
     - name: Push
