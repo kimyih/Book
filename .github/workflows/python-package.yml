@@ -46,6 +46,7 @@ jobs:
         python3 pyYes24_Sobang_.py
 
         python3 pyAladin_Geonseol_.py
+        python3 pyAladin_Hansik_.py
         
   
     - name: Commits
@@ -68,6 +69,7 @@ jobs:
         git add Yes24/Sobang/Sobang_*.json
 
         git add Aladin/Geonseol/Geonseol_*.json
+        git add Aladin/Geonseol/Hansik_*.json
         
         git commit -m "차트 수집 완료"
     - name: Push
