@@ -6,12 +6,6 @@
         "price": "19,800원"
     },
     {
-        "imageURL": "https://image.yes24.com/goods/123696092/L",
-        "title": "2024 에듀윌 제과·제빵기능사 필기끝장 (산업기사 대비가능)",
-        "author": "오명석, 장다예, 박진홍 편저",
-        "price": "19,800원"
-    },
-    {
         "imageURL": "https://image.yes24.com/goods/126438124/L",
         "title": "제과제빵기능사 실기",
         "author": "오동환, 정성모, 윤두열, 박종원, 김소미 저",
@@ -24,10 +18,16 @@
         "price": "19,800원"
     },
     {
-        "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
+        "imageURL": "https://image.yes24.com/goods/126036677/L",
         "title": "2024 SD에듀 제과제빵기능사 실기",
         "author": "김경진, 박영석 편저",
         "price": "21,600원"
+    },
+    {
+        "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
+        "title": "2024 에듀윌 제과·제빵기능사 필기끝장 (산업기사 대비가능)",
+        "author": "오명석, 장다예, 박진홍 편저",
+        "price": "19,800원"
     },
     {
         "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
@@ -61,15 +61,15 @@
     },
     {
         "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
-        "title": "2024 이기적 제과·제빵기능사 필기+실기 환상의 콤비 (산업기사 포함)",
-        "author": "우경수, 임상희, 고진선, 오병호, 이동철 저",
-        "price": "28,800원"
-    },
-    {
-        "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
         "title": "2024 제과제빵기능사 필기",
         "author": "제과제빵연구회 저",
         "price": "16,200원"
+    },
+    {
+        "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
+        "title": "2024 이기적 제과·제빵기능사 필기+실기 환상의 콤비 (산업기사 포함)",
+        "author": "우경수, 임상희, 고진선, 오병호, 이동철 저",
+        "price": "28,800원"
     },
     {
         "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
@@ -150,12 +150,6 @@
         "price": "19,800원"
     },
     {
-        "imageURL": "https://image.yes24.com/goods/123696092/L",
-        "title": "2024 에듀윌 제과·제빵기능사 필기끝장 (산업기사 대비가능)",
-        "author": "오명석, 장다예, 박진홍 편저",
-        "price": "19,800원"
-    },
-    {
         "imageURL": "https://image.yes24.com/goods/126438124/L",
         "title": "제과제빵기능사 실기",
         "author": "오동환, 정성모, 윤두열, 박종원, 김소미 저",
@@ -168,10 +162,16 @@
         "price": "19,800원"
     },
     {
-        "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
+        "imageURL": "https://image.yes24.com/goods/126036677/L",
         "title": "2024 SD에듀 제과제빵기능사 실기",
         "author": "김경진, 박영석 편저",
         "price": "21,600원"
+    },
+    {
+        "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
+        "title": "2024 에듀윌 제과·제빵기능사 필기끝장 (산업기사 대비가능)",
+        "author": "오명석, 장다예, 박진홍 편저",
+        "price": "19,800원"
     },
     {
         "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",

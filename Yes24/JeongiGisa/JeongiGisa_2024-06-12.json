@@ -6,10 +6,10 @@
         "price": "13,500원"
     },
     {
-        "imageURL": "https://image.yes24.com/goods/124521309/L",
-        "title": "2024 에듀윌 전기기사 필기 7개년 기출문제집",
-        "author": "에듀윌 전기수험연구소 편저",
-        "price": "27,900원"
+        "imageURL": "https://image.yes24.com/goods/125448060/L",
+        "title": "2024 전기(산업)기사 실기 파이널 특강",
+        "author": "김상훈 편저/한빛전기수험연구회 감수",
+        "price": "19,800원"
     },
     {
         "imageURL": "https://image.yes24.com/goods/124006659/L",
@@ -18,10 +18,10 @@
         "price": "26,010원"
     },
     {
-        "imageURL": "https://image.yes24.com/goods/125448060/L",
-        "title": "2024 전기(산업)기사 실기 파이널 특강",
-        "author": "김상훈 편저/한빛전기수험연구회 감수",
-        "price": "19,800원"
+        "imageURL": "https://image.yes24.com/goods/124521309/L",
+        "title": "2024 에듀윌 전기기사 필기 7개년 기출문제집",
+        "author": "에듀윌 전기수험연구소 편저",
+        "price": "27,900원"
     },
     {
         "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
@@ -37,6 +37,12 @@
     },
     {
         "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
+        "title": "2025 평생 무료 동영상과 함께하는 소방설비기사 필기 최근 기출문제 - 전기편",
+        "author": "정진홍, 김수인 저",
+        "price": "22,500원"
+    },
+    {
+        "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
         "title": "2024 전기공사(산업)기사 실기 단답형 문제집",
         "author": "김상훈 편저/한빛전기수험연구회 감수",
         "price": "18,000원"
@@ -46,12 +52,6 @@
         "title": "2025 평생 무료 동영상과 함께하는 소방설비기사 필기 - 전기편",
         "author": "정진홍, 김수인 저",
         "price": "31,500원"
-    },
-    {
-        "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
-        "title": "2025 평생 무료 동영상과 함께하는 소방설비기사 필기 최근 기출문제 - 전기편",
-        "author": "정진홍, 김수인 저",
-        "price": "22,500원"
     },
     {
         "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
@@ -73,15 +73,15 @@
     },
     {
         "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
-        "title": "2024 에듀윌 전기기사 실기 20개년 기출문제집",
-        "author": "에듀윌 전기수험연구소 편저",
-        "price": "35,100원"
-    },
-    {
-        "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
         "title": "2024 전기기사필기 5주완성",
         "author": "전기기사수험연구회 저",
         "price": "37,800원"
+    },
+    {
+        "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
+        "title": "2024 에듀윌 전기기사 실기 20개년 기출문제집",
+        "author": "에듀윌 전기수험연구소 편저",
+        "price": "35,100원"
     },
     {
         "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
@@ -115,6 +115,12 @@
     },
     {
         "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
+        "title": "2024 찐!합격 소방설비산업기사 실기 (전기6)",
+        "author": "공하성 저",
+        "price": "41,400원"
+    },
+    {
+        "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
         "title": "2024 D60-1 전기기사 필기",
         "author": "검정연구회 저",
         "price": "27,000원"
@@ -138,22 +144,16 @@
         "price": "38,700원"
     },
     {
-        "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
-        "title": "2024 찐!합격 소방설비산업기사 실기 (전기6)",
-        "author": "공하성 저",
-        "price": "41,400원"
-    },
-    {
         "imageURL": "https://image.yes24.com/goods/125558523/L",
         "title": "2024 전기(산업)기사 실기 단답형 문제집",
         "author": "김상훈 편저/한빛전기수험연구회 감수",
         "price": "13,500원"
     },
     {
-        "imageURL": "https://image.yes24.com/goods/124521309/L",
-        "title": "2024 에듀윌 전기기사 필기 7개년 기출문제집",
-        "author": "에듀윌 전기수험연구소 편저",
-        "price": "27,900원"
+        "imageURL": "https://image.yes24.com/goods/125448060/L",
+        "title": "2024 전기(산업)기사 실기 파이널 특강",
+        "author": "김상훈 편저/한빛전기수험연구회 감수",
+        "price": "19,800원"
     },
     {
         "imageURL": "https://image.yes24.com/goods/124006659/L",
@@ -162,10 +162,10 @@
         "price": "26,010원"
     },
     {
-        "imageURL": "https://image.yes24.com/goods/125448060/L",
-        "title": "2024 전기(산업)기사 실기 파이널 특강",
-        "author": "김상훈 편저/한빛전기수험연구회 감수",
-        "price": "19,800원"
+        "imageURL": "https://image.yes24.com/goods/124521309/L",
+        "title": "2024 에듀윌 전기기사 필기 7개년 기출문제집",
+        "author": "에듀윌 전기수험연구소 편저",
+        "price": "27,900원"
     },
     {
         "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
