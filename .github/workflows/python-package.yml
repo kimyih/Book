@@ -54,6 +54,7 @@ jobs:
         python3 pyAladin_JeongiGisa_.py
         python3 pyAladin_JeongiSaneop_.py
         python3 pyAladin_Jeppang_.py
+        python3 pyAladin_Jige_.py
         
   
     - name: Commits
@@ -84,6 +85,7 @@ jobs:
         git add Aladin/JeongiGisa/JeongiGisa_*.json
         git add Aladin/JeongiSaneop/JeongiSaneop_*.json
         git add Aladin/Jeppang/Jeppang_*.json
+        git add Aladin/Jige/Jige_*.json
         
         git commit -m "차트 수집 완료"
     - name: Push
