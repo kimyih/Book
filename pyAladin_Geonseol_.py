@@ -27,7 +27,7 @@ browser = webdriver.Chrome(service=service, options=options)
 
 
 # URL 열기
-browser.get('https://www.aladin.co.kr/search/wsearchresult.aspx?SearchTarget=All&SearchWord=%EC%A7%80%EA%B2%8C+%EA%B8%B0%EB%8A%A5%EC%82%AC')
+browser.get('https://www.aladin.co.kr/search/wsearchresult.aspx?SearchTarget=All&SearchWord=%EA%B1%B4%EC%84%A4%EC%95%88%EC%A0%84%EA%B8%B0%EC%82%AC')
 
 # 페이지가 완전히 로드될 때까지 대기
 try:
