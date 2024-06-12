@@ -44,6 +44,9 @@ jobs:
         python3 pyYes24_Nail_.py
         python3 pyYes24_Pibu_.py
         python3 pyYes24_Sobang_.py
+
+        python3 pyAladin_Geonseol_.py
+        
   
     - name: Commits
       run : |
@@ -63,6 +66,9 @@ jobs:
         git add Yes24/Nail/Nail_*.json
         git add Yes24/Pibu/Pibu_*.json
         git add Yes24/Sobang/Sobang_*.json
+
+        git add Aladin/Geonseol/Geonseol_*.json
+        
         git commit -m "차트 수집 완료"
     - name: Push
       uses: ad-m/github-push-action@master
