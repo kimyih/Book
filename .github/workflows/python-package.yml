@@ -50,6 +50,7 @@ jobs:
         python3 pyAladin_IIban_.py
         python3 pyAladin_Jegwa_.py
         python3 pyAladin_JeongboGineung_.py
+        python3 pyAladin_JeongboGisa_.py
         
   
     - name: Commits
@@ -76,6 +77,7 @@ jobs:
         git add Aladin/IIban/IIban_*.json
         git add Aladin/Jegwa/Jegwa_*.json
         git add Aladin/JeongboGineung/JeongboGineung_*.json
+        git add Aladin/JeongboGisa/JeongboGisa_*.json
         
         git commit -m "차트 수집 완료"
     - name: Push
