@@ -12,7 +12,7 @@ import json
 
 # 현재 날짜 가져오기
 current_date = datetime.now().strftime("%Y-%m-%d")
-filename = f"Aladin/Geonseol/Geonseol_{current_date}.json"
+filename = f"Aladin/Hansik/Hansik_{current_date}.json"
 
 # 웹드라이버 설치
 options = ChromeOptions()
