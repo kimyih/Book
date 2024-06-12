@@ -69,7 +69,7 @@ jobs:
         git add Yes24/Sobang/Sobang_*.json
 
         git add Aladin/Geonseol/Geonseol_*.json
-        git add Aladin/Geonseol/Hansik_*.json
+        git add Aladin/Hansik/Hansik_*.json
         
         git commit -m "차트 수집 완료"
     - name: Push
