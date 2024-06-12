@@ -58,6 +58,7 @@ jobs:
         python3 pyAladin_Makeup_.py
         python3 pyAladin_Nail_.py
         python3 pyAladin_Pibu_.py
+        python3 pyAladin_Sobang_.py
         
   
     - name: Commits
@@ -92,6 +93,7 @@ jobs:
         git add Aladin/Makeup/Makeup_*.json
         git add Aladin/Nail/Nail_*.json
         git add Aladin/Pibu/Pibu_*.json
+        git add Aladin/Sobang/Sobang_*.json
         
         git commit -m "차트 수집 완료"
     - name: Push
