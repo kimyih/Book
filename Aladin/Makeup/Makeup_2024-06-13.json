@@ -75,7 +75,7 @@
         "title": "미용사(메이크업) 필기 문제은행",
         "imageURL": "https://image.aladin.co.kr/product/33256/25/cover150/e592532735_1.jpg",
         "price": "3,000원",
-        "url": "No URL"
+        "url": null
     },
     {
         "title": "2019 메이크업 미용사 필기",
@@ -105,7 +105,7 @@
         "title": "미용사(메이크업) 필기 예상 및 기출 문제",
         "imageURL": "https://image.aladin.co.kr/product/33878/81/cover150/e892533675_1.jpg",
         "price": "9,900원",
-        "url": "No URL"
+        "url": null
     },
     {
         "title": "2024 메이크업미용사 필기 적중모의고사",
@@ -147,6 +147,6 @@
         "title": "미용사 메이크업",
         "imageURL": "https://image.aladin.co.kr/product/28636/54/cover150/e452539604_1.jpg",
         "price": "20,000원",
-        "url": "No URL"
+        "url": null
     }
 ]

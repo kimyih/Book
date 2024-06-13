@@ -45,7 +45,7 @@
         "title": "2024 에듀윌 제과·제빵기능사 필기끝장 (산업기사 대비가능)",
         "imageURL": "https://image.aladin.co.kr/product/33852/79/cover150/e222533476_1.jpg",
         "price": "17,820원",
-        "url": "No URL"
+        "url": null
     },
     {
         "title": "2020 3일 완성 제과기능사 필기시험 총정리 (8절)",
@@ -57,7 +57,7 @@
         "title": "2024 SD에듀 답만 외우는 제과기능사 필기 기출문제 + 모의고사 14회",
         "imageURL": "https://image.aladin.co.kr/product/32382/12/cover150/e782532566_1.jpg",
         "price": "10,500원",
-        "url": "No URL"
+        "url": null
     },
     {
         "title": "2024 기분파 제과제빵기능사 필기 (통합)",
@@ -105,7 +105,7 @@
         "title": "제과제빵 기능사 & 실무 특강 (제2판)",
         "imageURL": "https://image.aladin.co.kr/product/33489/88/cover150/e552532348_1.jpg",
         "price": "33,000원",
-        "url": "No URL"
+        "url": null
     },
     {
         "title": "제과.제빵 기능사 실기 (QR코드 동영상무료강의)",
@@ -129,7 +129,7 @@
         "title": "제과제빵 기능사 필기 (2019년 최신판)",
         "imageURL": "https://image.aladin.co.kr/product/16937/94/cover150/ek63253407_1.jpg",
         "price": "15,400원",
-        "url": "No URL"
+        "url": null
     },
     {
         "title": "제과기능사 홈베이킹",
@@ -147,6 +147,6 @@
         "title": "제과기능사 필기 문제은행",
         "imageURL": "https://image.aladin.co.kr/product/32099/36/cover150/e322531647_1.jpg",
         "price": "3,000원",
-        "url": "No URL"
+        "url": null
     }
 ]

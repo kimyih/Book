@@ -9,7 +9,7 @@
         "title": "2024 이기적 정보처리기사 실기 기본서 (무료 체험판)",
         "imageURL": "https://image.aladin.co.kr/product/33807/61/cover150/e632533070_1.jpg",
         "price": "0원",
-        "url": "No URL"
+        "url": null
     },
     {
         "title": "2024 시나공 정보처리기사 필기 기본서",
@@ -21,7 +21,7 @@
         "title": "2024 정보처리기사 필기 1권+2권 합본 - 전2권",
         "imageURL": "https://image.aladin.co.kr/product/33626/81/cover150/e102532155_1.jpg",
         "price": "28,000원",
-        "url": "No URL"
+        "url": null
     },
     {
         "title": "2024 정보처리기사 필기 1권+2권 합본세트 - 전2권",
@@ -39,7 +39,7 @@
         "title": "2024 이기적 정보처리기사 필기 기본서 & 기출공략집 (무료 체험판)",
         "imageURL": "https://image.aladin.co.kr/product/33807/64/cover150/e742533070_1.jpg",
         "price": "0원",
-        "url": "No URL"
+        "url": null
     },
     {
         "title": "2024 수제비 정보처리기사 실기 FINAL 실전 모의고사",
@@ -51,7 +51,7 @@
         "title": "2024 수제비 정보처리기사 필기 기출문제집",
         "imageURL": "https://image.aladin.co.kr/product/33704/72/cover150/e162533766_1.jpg",
         "price": "16,800원",
-        "url": "No URL"
+        "url": null
     },
     {
         "title": "2024 시나공 정보처리기사 필기 기출문제집",
@@ -99,7 +99,7 @@
         "title": "2024 수제비 정보처리기사 실기 1권+2권 합본 - 전2권",
         "imageURL": "https://image.aladin.co.kr/product/33556/57/cover150/e742532646_1.jpg",
         "price": "32,000원",
-        "url": "No URL"
+        "url": null
     },
     {
         "title": "2024 이기적 정보처리기사 필기 기출문제 1200제 + 핵심마인드맵",
@@ -123,7 +123,7 @@
         "title": "2024 시나공 정보처리기사 필기 기출문제집",
         "imageURL": "https://image.aladin.co.kr/product/33047/83/cover150/e062532310_1.jpg",
         "price": "17,600원",
-        "url": "No URL"
+        "url": null
     },
     {
         "title": "2024 이기적 정보처리기사 필기 절대족보",
@@ -147,6 +147,6 @@
         "title": "2024 수제비 정보처리기사 실기 FINAL 실전 모의고사",
         "imageURL": "https://image.aladin.co.kr/product/33556/61/cover150/e802532646_1.jpg",
         "price": "24,000원",
-        "url": "No URL"
+        "url": null
     }
 ]
