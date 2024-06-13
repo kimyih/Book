@@ -39,7 +39,18 @@ for track in tracks:
         title = track.select_one(".bo3").text.strip()
         price = track.select_one(".ss_p2").text.strip()
         # 이미지 요소가 로드될 때까지 대기
-        image_element = track.select_one(".flipcover_in img:nth-of-type(2)")  # 이미지 요소 가져오기
+            # 이미지 파일 추출
+        image_element = track.select_one(".flipcover_in img:nth-of-type(2)")
+        if not image_element:  # nth-of-type(2)가 없을 경우 첫 번째 이미지 선택
+            image_element = track.select_one(".flipcover_in img")
+        image_url = image_element.get('src') if image_element else None
+        if not image_element: # nth-of-type(1)가 없을 때 flipcover_in lcover_none
+            image_element = track.select_one(".flipcover_in lcover_none img")
+        if not image_element:  # flipcover_in img가 없을 경우 cover_area_other img 선택
+            image_element = track.select_one(".cover_area_other img")
+            image_url = image_element.get('src') if image_element else None
+
+        
         image_url = image_element.get('src') if image_element else None  # src에서 이미지 URL 가져오기
         link_element = track.select_one(".cover_area a")  # 링크 요소 가져오기
         href = link_element.get('href') if link_element else None  # href 속성 가져오기
