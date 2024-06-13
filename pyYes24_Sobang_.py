@@ -45,7 +45,7 @@ def extract_data():
     for book in books:
         # Extract image URL
         image_element = book.select_one(".img_bdr img")
-        image_url = image_element['src'] if image_element else 'No image'
+        image_url = image_element.get('data-original', image_element.get('src', 'No image')) if image_element else 'No image'
 
         # Extract title
         title_element = book.select_one(".info_row.info_name .gd_name")
@@ -59,12 +59,17 @@ def extract_data():
         price_element = book.select_one(".info_row.info_price .txt_num")
         price = price_element.text.strip() if price_element else 'No price'
 
+        # Extract book URL
+        url_element = book.select_one(".lnk_img")
+        url = url_element['href'] if url_element else 'No URL'
+
         # Append extracted data to book_data list
         book_data.append({
             "imageURL": image_url,
             "title": title,
             "author": author,
             "price": price,
+            "url": url
         })
 
 # 스크롤하여 모든 데이터를 로드하고 추출
