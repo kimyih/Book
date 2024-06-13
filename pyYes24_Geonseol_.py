@@ -27,44 +27,41 @@ service = ChromeService(executable_path=ChromeDriverManager().install())
 browser = webdriver.Chrome(service=service, options=options)
 
 # URL 열기
-browser.get('https://www.yes24.com/Product/Search?domain=ALL&query=%EA%B1%B4%EC%84%A4%EC%95%88%EC%A0%84%EA%B8%B0%EC%82%AC')
+browser.get('https://www.yes24.com/Product/Search?domain=BOOK&query=%EA%B1%B4%EC%84%A4%EC%95%88%EC%A0%84%EA%B8%B0%EC%82%AC')
 
 # 페이지가 완전히 로드될 때까지 대기
 WebDriverWait(browser, 10).until(
     EC.presence_of_element_located((By.CLASS_NAME, "sGLi"))
 )
 
+# 업데이트된 페이지 소스를 변수에 저장
+html_source_updated = browser.page_source
+soup = BeautifulSoup(html_source_updated, 'html.parser')
+
+# 데이터 추출
 book_data = []
 
-# 데이터 추출 함수
-def extract_data():
-    html_source_updated = browser.page_source
-    soup = BeautifulSoup(html_source_updated, 'html.parser')
-    books = soup.select("li[data-goods-no]")
-    
-    for book in books:
-        # Extract image URL
-        image_element = book.select_one(".img_bdr img")
-        image_url = image_element['src'] if image_element else 'No image'
+# 첫 번째 tracks
+tracks = soup.select("li[data-goods-no]")
 
-        # Extract title
-        title_element = book.select_one(".info_row.info_name .gd_name")
-        title = title_element.text.strip() if title_element else 'No title'
+for track in tracks:
+        title = track.select_one(".info_row.info_name .gd_name").text.strip()
+        author = track.select_one(".info_row.info_pubGrp .info_auth").text.strip()
+        price = track.select_one(".info_row.info_price .txt_num").text.strip()
+        # 이미지 요소가 로드될 때까지 대기
+        image_element = track.select_one(".img_bdr img")  # 이미지 요소 가져오기
+        image_url = image_element.get('src') if image_element else None  # src에서 이미지 URL 가져오기
 
-        # Extract author
-        author_element = book.select_one(".info_row.info_pubGrp .info_auth")
-        author = author_element.text.strip() if author_element else 'No author'
+        link_element = track.select_one(".gd_name")  # 링크 요소 가져오기
+        href = link_element.get('href') if link_element else None  # href 속성 가져오기
+        full_url = f"href" if href else None  # 앞에 URL 추가
 
-        # Extract price
-        price_element = book.select_one(".info_row.info_price .txt_num")
-        price = price_element.text.strip() if price_element else 'No price'
-
-        # Append extracted data to book_data list
         book_data.append({
-            "imageURL": image_url,
             "title": title,
             "author": author,
-            "price": price,
+            "imageURL": image_url,
+            "price" : price,
+            "url" : href
         })
 
 # 스크롤하여 모든 데이터를 로드하고 추출
