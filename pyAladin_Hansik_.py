@@ -78,7 +78,7 @@ for track in tracks:
     book_data.append({
         "title": title,
         "imageURL": image_url,
-        "price": price
+        "price": price,
         "url": url
     })
 
