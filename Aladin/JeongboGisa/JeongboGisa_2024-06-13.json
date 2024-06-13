@@ -5,14 +5,14 @@
         "price": "36,000원"
     },
     {
-        "title": "2024 시나공 정보처리기사 필기 기본서",
-        "imageURL": "https://image.aladin.co.kr/product/32699/84/cover200/k422936666_1.jpg",
-        "price": "31,500원"
-    },
-    {
         "title": "2024 이기적 정보처리기사 실기 기본서 (무료 체험판)",
         "imageURL": "https://image.aladin.co.kr/product/33807/61/cover150/e632533070_1.jpg",
         "price": "0원"
+    },
+    {
+        "title": "2024 시나공 정보처리기사 필기 기본서",
+        "imageURL": "https://image.aladin.co.kr/product/32699/84/cover200/k422936666_1.jpg",
+        "price": "31,500원"
     },
     {
         "title": "2024 정보처리기사 필기 1권+2권 합본 - 전2권",
@@ -105,14 +105,14 @@
         "price": "17,600원"
     },
     {
-        "title": "2024 이기적 정보처리기사 필기 + 실기 환상의 콤비",
-        "imageURL": "https://image.aladin.co.kr/product/32465/0/cover200/8931468342_1.jpg",
-        "price": "43,200원"
-    },
-    {
         "title": "2024 이기적 정보처리기사 필기 절대족보",
         "imageURL": "https://image.aladin.co.kr/product/32327/35/cover200/8931468628_1.jpg",
         "price": "20,700원"
+    },
+    {
+        "title": "2024 이기적 정보처리기사 필기 + 실기 환상의 콤비",
+        "imageURL": "https://image.aladin.co.kr/product/32465/0/cover200/8931468342_1.jpg",
+        "price": "43,200원"
     },
     {
         "title": "2024 이기적 정보처리기사 실기 핵심 600제 + 프로그래밍 언어",

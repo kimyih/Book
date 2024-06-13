@@ -30,14 +30,14 @@
         "price": "16,200원"
     },
     {
-        "title": "2024 기분파 제과제빵기능사 필기 (통합)",
-        "imageURL": "https://image.aladin.co.kr/product/32876/3/cover200/k612936113_1.jpg",
-        "price": "18,000원"
-    },
-    {
         "title": "2024 에듀윌 제과·제빵기능사 필기끝장 (산업기사 대비가능)",
         "imageURL": "https://image.aladin.co.kr/product/33852/79/cover150/e222533476_1.jpg",
         "price": "17,820원"
+    },
+    {
+        "title": "2024 기분파 제과제빵기능사 필기 (통합)",
+        "imageURL": "https://image.aladin.co.kr/product/32876/3/cover200/k612936113_1.jpg",
+        "price": "18,000원"
     },
     {
         "title": "2024 제과제빵기능사 실기",
@@ -95,11 +95,6 @@
         "price": "18,000원"
     },
     {
-        "title": "2024 SD에듀 제과제빵기능사 필기 가장 빠른 합격",
-        "imageURL": "https://image.aladin.co.kr/product/32473/2/cover150/e602532172_1.jpg",
-        "price": "11,900원"
-    },
-    {
         "title": "나는 파리의 한국인 제빵사입니다",
         "imageURL": "https://image.aladin.co.kr/product/34075/1/cover200/k442931476_1.jpg",
         "price": "17,550원"
@@ -108,6 +103,11 @@
         "title": "2024 원큐패스 제빵기능사 필기 빈출 문제 10회",
         "imageURL": "https://image.aladin.co.kr/product/32963/85/cover200/8927773195_1.jpg",
         "price": "11,700원"
+    },
+    {
+        "title": "2024 SD에듀 제과제빵기능사 필기 가장 빠른 합격",
+        "imageURL": "https://image.aladin.co.kr/product/32473/2/cover150/e602532172_1.jpg",
+        "price": "11,900원"
     },
     {
         "title": "2024 제과제빵기능사 필기",

@@ -115,13 +115,13 @@
         "price": "25,000원"
     },
     {
-        "title": "2025 한권으로 끝내는 미용사 일반 (필기)",
-        "imageURL": "https://image.aladin.co.kr/product/33298/72/cover200/k832938382_1.jpg",
-        "price": "16,200원"
-    },
-    {
         "title": "2024 한권으로 끝내주는 NCS 미용사 일반 실기시험문제",
         "imageURL": "https://image.aladin.co.kr/product/33288/44/cover200/8940647254_1.jpg",
         "price": "22,500원"
+    },
+    {
+        "title": "2025 한권으로 끝내는 미용사 일반 (필기)",
+        "imageURL": "https://image.aladin.co.kr/product/33298/72/cover200/k832938382_1.jpg",
+        "price": "16,200원"
     }
 ]

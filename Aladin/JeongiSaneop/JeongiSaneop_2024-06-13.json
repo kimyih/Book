@@ -50,11 +50,6 @@
         "price": "37,800원"
     },
     {
-        "title": "2024 찐!합격 소방설비산업기사 필기 (전기 ③)",
-        "imageURL": "https://image.aladin.co.kr/product/33028/94/cover200/8931528736_1.jpg",
-        "price": "41,400원"
-    },
-    {
         "title": "2024 시대에듀 EBS 전기기사·산업기사 실기 한권으로 끝내기",
         "imageURL": "https://image.aladin.co.kr/product/33414/92/cover200/k622938334_1.jpg",
         "price": "36,000원"
@@ -63,6 +58,11 @@
         "title": "2024 E60-2 전기산업기사 실기",
         "imageURL": "https://image.aladin.co.kr/product/33292/78/cover200/k932938282_1.jpg",
         "price": "34,200원"
+    },
+    {
+        "title": "2024 찐!합격 소방설비산업기사 필기 (전기 ③)",
+        "imageURL": "https://image.aladin.co.kr/product/33028/94/cover200/8931528736_1.jpg",
+        "price": "41,400원"
     },
     {
         "title": "2024 D60-2 전기산업기사 필기 - 전2권",
@@ -80,14 +80,14 @@
         "price": "29,700원"
     },
     {
-        "title": "2023 전기기사,산업기사 실기 마인드맵",
-        "imageURL": "https://image.aladin.co.kr/product/31274/54/cover200/k782832669_2.jpg",
-        "price": "13,500원"
-    },
-    {
         "title": "2024 핵심 전기산업기사 필기",
         "imageURL": "https://image.aladin.co.kr/product/32933/85/cover200/8938116026_1.jpg",
         "price": "18,900원"
+    },
+    {
+        "title": "2023 전기기사,산업기사 실기 마인드맵",
+        "imageURL": "https://image.aladin.co.kr/product/31274/54/cover200/k782832669_2.jpg",
+        "price": "13,500원"
     },
     {
         "title": "2024 전기기사.산업기사 실기",
@@ -110,11 +110,6 @@
         "price": "28,000원"
     },
     {
-        "title": "2024 전기(산업)기사 실기 파이널 특강",
-        "imageURL": "https://image.aladin.co.kr/product/33613/57/cover200/k642939915_1.jpg",
-        "price": "19,800원"
-    },
-    {
         "title": "2024 초격차 소방설비산업기사 과년도 7개년 실기전기",
         "imageURL": "https://image.aladin.co.kr/product/33516/99/cover200/k462938659_1.jpg",
         "price": "28,800원"
@@ -123,5 +118,10 @@
         "title": "2024 전기산업기사 실기 + 무료동영상",
         "imageURL": "https://image.aladin.co.kr/product/32875/42/cover200/8927452348_1.jpg",
         "price": "35,100원"
+    },
+    {
+        "title": "2024 전기산업기사 필기 최근9년간 기출문제",
+        "imageURL": "https://image.aladin.co.kr/product/33024/39/cover200/k902937073_1.jpg",
+        "price": "20,700원"
     }
 ]
