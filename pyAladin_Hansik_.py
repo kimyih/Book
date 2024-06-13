@@ -71,10 +71,15 @@ for track in tracks:
     price_element = track.select_one(".ss_p2")
     price = price_element.get_text(strip=True).replace('\n', '') if price_element else 'No price'
 
+    # URL 추출
+    url_element = track.select_one(".cover_area a")
+    url = url_element['href'] if url_element else 'No URL'
+
     book_data.append({
         "title": title,
         "imageURL": image_url,
         "price": price
+        "url": url
     })
 
 print(book_data)
