@@ -26,7 +26,6 @@ options.add_argument("--window-size=1920x1080")  # 윈도우 크기 설정
 service = ChromeService(executable_path=ChromeDriverManager().install())
 browser = webdriver.Chrome(service=service, options=options)
 
-# URL 열기
 browser.get('https://www.yes24.com/Product/Search?domain=BOOK&query=%EA%B1%B4%EC%84%A4%EC%95%88%EC%A0%84%EA%B8%B0%EC%82%AC')
 
 # 페이지가 완전히 로드될 때까지 대기
@@ -64,46 +63,11 @@ for track in tracks:
             "url" : href
         })
 
-# 스크롤하여 모든 데이터를 로드하고 추출
-def scroll_and_extract():
-    while True:
-        # Extract data before scrolling
-        extract_data()
-        
-        # Scroll down to the bottom
-        last_height = browser.execute_script("return document.body.scrollHeight")
-        browser.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-        time.sleep(2)  # Wait for items to load
-
-        # Calculate new scroll height and compare with last height
-        new_height = browser.execute_script("return document.body.scrollHeight")
-        
-        if new_height == last_height:
-            break
-
-# 다음 페이지로 이동
-def go_to_next_page():
-    try:
-        next_button = WebDriverWait(browser, 10).until(
-            EC.element_to_be_clickable((By.CSS_SELECTOR, ".btn_next"))
-        )
-        next_button.click()
-        time.sleep(2)  # 페이지 로드 대기
-        return True
-    except:
-        return False
-
-# 모든 페이지에서 데이터를 추출
-while len(book_data) < 30:
-    scroll_and_extract()
-    if not go_to_next_page():
-        break
+print(book_data)
 
 # 데이터를 JSON 파일로 저장
 with open(filename, 'w', encoding='utf-8') as f:
-    json.dump(book_data[:30], f, ensure_ascii=False, indent=4)
+    json.dump(book_data, f, ensure_ascii=False, indent=4)
 
 # 브라우저 종료
 browser.quit()
-
-print(f"Data has been saved to {filename}")
