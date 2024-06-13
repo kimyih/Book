@@ -57,7 +57,7 @@ for track in tracks:
     if not image_element:  # nth-of-type(2)가 없을 경우 첫 번째 이미지 선택
         image_element = track.select_one(".flipcover_in img")
     image_url = image_element.get('src') if image_element else None
-    if not image_element: #nth-of-type(1)가 없을 때 flipcover_in lcover_none
+    if not image_element: # nth-of-type(1)가 없을 때 flipcover_in lcover_none
         image_element = track.select_one(".flipcover_in lcover_none img")
     if not image_element:  # flipcover_in img가 없을 경우 cover_area_other img 선택
         image_element = track.select_one(".cover_area_other img")
@@ -70,7 +70,7 @@ for track in tracks:
     # 가격 추출
     price_element = track.select_one(".ss_p2")
     price = price_element.get_text(strip=True).replace('\n', '') if price_element else 'No price'
-        
+    
     # URL 추출
     url_element = track.select_one(".cover_area a")
     url = url_element['href'] if url_element else 'No URL'
