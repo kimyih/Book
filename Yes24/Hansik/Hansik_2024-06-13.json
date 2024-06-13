@@ -25,15 +25,15 @@
     },
     {
         "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
-        "title": "2024 유튜버 파이팅혼공TV 한식조리기능사 CBT필기 기출 문제집 올인원 총정리",
-        "author": "PD 혼공쌤 저",
-        "price": "16,200원"
-    },
-    {
-        "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
         "title": "2024 에듀윌 조리기능사 필기끝장",
         "author": "김자경, 송은주, 김선희 저",
         "price": "19,800원"
+    },
+    {
+        "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
+        "title": "2024 유튜버 파이팅혼공TV 한식조리기능사 CBT필기 기출 문제집 올인원 총정리",
+        "author": "PD 혼공쌤 저",
+        "price": "16,200원"
     },
     {
         "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
@@ -49,21 +49,15 @@
     },
     {
         "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
-        "title": "2024 SD에듀 답만 외우는 한식조리기능사 필기 CBT기출문제+모의고사 14회",
-        "author": "한은숙 저",
-        "price": "13,500원"
-    },
-    {
-        "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
         "title": "2024 유튜버 하쌤의 한식조리기능사 필기+기출문제 완벽복원",
         "author": "하혜란 저",
         "price": "19,800원"
     },
     {
         "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
-        "title": "2024 한식조리기능사 필기실기",
-        "author": "하현숙, 남자숙, 김남희 저",
-        "price": "24,300원"
+        "title": "2024 SD에듀 답만 외우는 한식조리기능사 필기 CBT기출문제+모의고사 14회",
+        "author": "한은숙 저",
+        "price": "13,500원"
     },
     {
         "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
@@ -94,6 +88,12 @@
         "title": "2024 이기적 한식조리기능사 필기 기본서",
         "author": "최경선 저",
         "price": "12,240원"
+    },
+    {
+        "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
+        "title": "2024 한식조리기능사 필기실기",
+        "author": "하현숙, 남자숙, 김남희 저",
+        "price": "24,300원"
     },
     {
         "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
@@ -169,14 +169,14 @@
     },
     {
         "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
-        "title": "2024 유튜버 파이팅혼공TV 한식조리기능사 CBT필기 기출 문제집 올인원 총정리",
-        "author": "PD 혼공쌤 저",
-        "price": "16,200원"
-    },
-    {
-        "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
         "title": "2024 에듀윌 조리기능사 필기끝장",
         "author": "김자경, 송은주, 김선희 저",
         "price": "19,800원"
+    },
+    {
+        "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
+        "title": "2024 유튜버 파이팅혼공TV 한식조리기능사 CBT필기 기출 문제집 올인원 총정리",
+        "author": "PD 혼공쌤 저",
+        "price": "16,200원"
     }
 ]

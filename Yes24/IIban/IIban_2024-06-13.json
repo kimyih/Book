@@ -31,9 +31,27 @@
     },
     {
         "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
+        "title": "2024 미용사 일반 필기 기출복원+모의고사",
+        "author": "타임 NCS 연구소 저",
+        "price": "14,400원"
+    },
+    {
+        "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
         "title": "2024 2주완성 미용사 일반 필기시험문제",
         "author": "김희주 저",
         "price": "17,100원"
+    },
+    {
+        "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
+        "title": "2024 적중100% 합격 미용사일반 필기시험 총정리문제",
+        "author": "안종남, 김혜연 저",
+        "price": "14,400원"
+    },
+    {
+        "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
+        "title": "2024 빨리빨리 합격하는 미용사일반 필기시험문제",
+        "author": "오영애, 고민우 저",
+        "price": "23,400원"
     },
     {
         "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
@@ -49,27 +67,9 @@
     },
     {
         "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
-        "title": "2024 빨리빨리 합격하는 미용사일반 필기시험문제",
-        "author": "오영애, 고민우 저",
-        "price": "23,400원"
-    },
-    {
-        "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
-        "title": "2024 적중100% 합격 미용사일반 필기시험 총정리문제",
-        "author": "안종남, 김혜연 저",
-        "price": "14,400원"
-    },
-    {
-        "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
         "title": "NCS 과정평가형 미용사(일반) 필기&실기",
         "author": "박은준 등저",
         "price": "28,000원"
-    },
-    {
-        "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
-        "title": "2024 미용사 일반 필기 기출복원+모의고사",
-        "author": "타임 NCS 연구소 저",
-        "price": "14,400원"
     },
     {
         "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
@@ -175,8 +175,8 @@
     },
     {
         "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
-        "title": "2024 2주완성 미용사 일반 필기시험문제",
-        "author": "김희주 저",
-        "price": "17,100원"
+        "title": "2024 미용사 일반 필기 기출복원+모의고사",
+        "author": "타임 NCS 연구소 저",
+        "price": "14,400원"
     }
 ]

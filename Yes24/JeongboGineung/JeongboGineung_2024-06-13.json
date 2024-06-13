@@ -18,28 +18,28 @@
         "price": "18,000원"
     },
     {
-        "imageURL": "https://image.yes24.com/goods/124832424/L",
-        "title": "2024 시나공 정보처리기능사 실기 기본서",
-        "author": "길벗알앤디 저",
-        "price": "18,000원"
-    },
-    {
-        "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
+        "imageURL": "https://image.yes24.com/goods/124219621/L",
         "title": "2024 이기적 정보처리기능사 실기 기본서",
         "author": "임승현(PATH) 저",
         "price": "18,000원"
     },
     {
         "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
-        "title": "2024 이기적 정보처리기능사 필기 최신문제집+핵심이론",
-        "author": "영진정보연구소 저",
-        "price": "13,600원"
+        "title": "2024 시나공 정보처리기능사 실기 기본서",
+        "author": "길벗알앤디 저",
+        "price": "18,000원"
     },
     {
         "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
         "title": "2024 시나공 정보처리기능사 필기 기본서",
         "author": "길벗알앤디 저",
         "price": "16,000원"
+    },
+    {
+        "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
+        "title": "2024 이기적 정보처리기능사 필기 최신문제집+핵심이론",
+        "author": "영진정보연구소 저",
+        "price": "13,600원"
     },
     {
         "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
@@ -52,12 +52,6 @@
         "title": "에듀윌 EXIT 정보처리기능사 필기 이론+기출 한권끝장",
         "author": "강재영 편저",
         "price": "18,000원"
-    },
-    {
-        "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
-        "title": "2023 이기적 정보처리기능사 필기 기출문제집",
-        "author": "영진정보연구소 저",
-        "price": "8,640원"
     },
     {
         "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
@@ -76,6 +70,12 @@
         "title": "2023 시나공 SUMMARY 정보처리기능사 필기",
         "author": "길벗알앤디 저",
         "price": "15,300원"
+    },
+    {
+        "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
+        "title": "2023 이기적 정보처리기능사 필기 기출문제집",
+        "author": "영진정보연구소 저",
+        "price": "8,640원"
     },
     {
         "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
@@ -162,21 +162,21 @@
         "price": "18,000원"
     },
     {
-        "imageURL": "https://image.yes24.com/goods/124832424/L",
-        "title": "2024 시나공 정보처리기능사 실기 기본서",
-        "author": "길벗알앤디 저",
-        "price": "18,000원"
-    },
-    {
-        "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
+        "imageURL": "https://image.yes24.com/goods/124219621/L",
         "title": "2024 이기적 정보처리기능사 실기 기본서",
         "author": "임승현(PATH) 저",
         "price": "18,000원"
     },
     {
         "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
-        "title": "2024 이기적 정보처리기능사 필기 최신문제집+핵심이론",
-        "author": "영진정보연구소 저",
-        "price": "13,600원"
+        "title": "2024 시나공 정보처리기능사 실기 기본서",
+        "author": "길벗알앤디 저",
+        "price": "18,000원"
+    },
+    {
+        "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
+        "title": "2024 시나공 정보처리기능사 필기 기본서",
+        "author": "길벗알앤디 저",
+        "price": "16,000원"
     }
 ]

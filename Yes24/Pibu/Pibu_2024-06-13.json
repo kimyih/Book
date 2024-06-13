@@ -18,13 +18,7 @@
         "price": "22,500원"
     },
     {
-        "imageURL": "https://image.yes24.com/goods/123453580/L",
-        "title": "2024 에듀윌 피부 미용사 필기 1주끝장",
-        "author": "이성내, 문연숙, 문한나 편저",
-        "price": "22,950원"
-    },
-    {
-        "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
+        "imageURL": "https://image.yes24.com/goods/122879480/L",
         "title": "2023 미용사(피부) 국가자격증 필기",
         "author": "김인옥, 김성숙, 문지선, 박진경, 이나현, 양선미, 정혜욱, 최세영 저",
         "price": "25,200원"
@@ -79,6 +73,12 @@
     },
     {
         "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
+        "title": "2024 에듀윌 피부 미용사 필기 1주끝장",
+        "author": "이성내, 문연숙, 문한나 편저",
+        "price": "22,950원"
+    },
+    {
+        "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
         "title": "2024 1주일 완성 피부미용사 필기시험 총정리문제",
         "author": "황해정, 김승아 저",
         "price": "18,000원"
@@ -97,6 +97,12 @@
     },
     {
         "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
+        "title": "2024 한번에 합격하는 피부미용사 실기시험문제",
+        "author": "이성내, 이수연, 문한나 저",
+        "price": "23,400원"
+    },
+    {
+        "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
         "title": "2024 피부미용사 필기 기출복원+모의고사",
         "author": "시스컴자격시험연구소 저",
         "price": "11,200원"
@@ -106,12 +112,6 @@
         "title": "2020 피부미용사 필기시험 한번에 합격하기",
         "author": "건국대학교 교육대학원 미용교육학과 집필위원회 저",
         "price": "27,000원"
-    },
-    {
-        "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
-        "title": "2024 한번에 합격하는 피부미용사 실기시험문제",
-        "author": "이성내, 이수연, 문한나 저",
-        "price": "23,400원"
     },
     {
         "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
@@ -162,13 +162,7 @@
         "price": "22,500원"
     },
     {
-        "imageURL": "https://image.yes24.com/goods/123453580/L",
-        "title": "2024 에듀윌 피부 미용사 필기 1주끝장",
-        "author": "이성내, 문연숙, 문한나 편저",
-        "price": "22,950원"
-    },
-    {
-        "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
+        "imageURL": "https://image.yes24.com/goods/122879480/L",
         "title": "2023 미용사(피부) 국가자격증 필기",
         "author": "김인옥, 김성숙, 문지선, 박진경, 이나현, 양선미, 정혜욱, 최세영 저",
         "price": "25,200원"
@@ -178,5 +172,11 @@
         "title": "국가자격 미용사 피부 총정리 핵심 문제집",
         "author": "허정록, 황혜주, 조선희, 장영선, 이영숙, 정은영, 허윤성 공저",
         "price": "23,750원"
+    },
+    {
+        "imageURL": "https://image.yes24.com/momo/Noimg_L.jpg",
+        "title": "렛츠겟잇 한권으로 합격하는 미용사 피부 필기",
+        "author": "손가빈 저",
+        "price": "19,800원"
     }
 ]
