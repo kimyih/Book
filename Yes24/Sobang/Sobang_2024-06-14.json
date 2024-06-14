@@ -28,13 +28,6 @@
         "url": "/Product/Goods/126968659"
     },
     {
-        "imageURL": "https://image.yes24.com/goods/126968616/L",
-        "title": "2025 평생 무료 동영상과 함께하는 소방설비기사 필기 - 전기편",
-        "author": "정진홍, 김수인 저",
-        "price": "31,500원",
-        "url": "/Product/Goods/126968616"
-    },
-    {
         "imageURL": "https://image.yes24.com/goods/125933072/L",
         "title": "2024 이패스 소방설비기사 실기 전기분야",
         "author": "이재훈 저",
@@ -54,6 +47,13 @@
         "author": "정진홍, 김수인 저",
         "price": "31,500원",
         "url": "/Product/Goods/126968532"
+    },
+    {
+        "imageURL": "https://image.yes24.com/goods/126968616/L",
+        "title": "2025 평생 무료 동영상과 함께하는 소방설비기사 필기 - 전기편",
+        "author": "정진홍, 김수인 저",
+        "price": "31,500원",
+        "url": "/Product/Goods/126968616"
     },
     {
         "imageURL": "https://image.yes24.com/goods/123623885/L",
@@ -196,17 +196,17 @@
         "url": "/Product/Goods/126968659"
     },
     {
-        "imageURL": "https://image.yes24.com/goods/126968616/L",
-        "title": "2025 평생 무료 동영상과 함께하는 소방설비기사 필기 - 전기편",
-        "author": "정진홍, 김수인 저",
-        "price": "31,500원",
-        "url": "/Product/Goods/126968616"
-    },
-    {
         "imageURL": "https://image.yes24.com/goods/125933072/L",
         "title": "2024 이패스 소방설비기사 실기 전기분야",
         "author": "이재훈 저",
         "price": "31,500원",
         "url": "/Product/Goods/125933072"
+    },
+    {
+        "imageURL": "https://image.yes24.com/goods/126968637/L",
+        "title": "2025 평생 무료 동영상과 함께하는 소방설비기사 필기 최근 기출문제 - 기계편",
+        "author": "정진홍, 김수인 저",
+        "price": "22,500원",
+        "url": "/Product/Goods/126968637"
     }
 ]

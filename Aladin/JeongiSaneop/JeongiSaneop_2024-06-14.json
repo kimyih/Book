@@ -114,12 +114,6 @@
         "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=333213959"
     },
     {
-        "title": "2024 전기(산업)기사 실기 단답형 문제집",
-        "imageURL": "https://image.aladin.co.kr/product/33651/13/cover200/k302939512_1.jpg",
-        "price": "13,500원",
-        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=336511321"
-    },
-    {
         "title": "모아 전기산업기사 실기 과년도 10개년",
         "imageURL": "https://image.aladin.co.kr/product/33739/29/cover200/k472930763_1.jpg",
         "price": "25,200원",
@@ -130,6 +124,12 @@
         "imageURL": "https://image.aladin.co.kr/product/33712/73/cover150/e382533866_1.jpg",
         "price": "28,000원",
         "url": null
+    },
+    {
+        "title": "2024 전기(산업)기사 실기 단답형 문제집",
+        "imageURL": "https://image.aladin.co.kr/product/33651/13/cover200/k302939512_1.jpg",
+        "price": "13,500원",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=336511321"
     },
     {
         "title": "2024 전기산업기사 실기 + 무료동영상",
