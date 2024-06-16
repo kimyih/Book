@@ -35,18 +35,18 @@
         "url": "/Product/Goods/124039588"
     },
     {
-        "imageURL": "https://image.yes24.com/goods/125134920/L",
-        "title": "2024 수제비 정보처리기사 실기 FINAL 실전 모의고사",
-        "author": "윤영빈, 서용욱, 김학배, 박인상 저",
-        "price": "27,000원",
-        "url": "/Product/Goods/125134920"
-    },
-    {
         "imageURL": "https://image.yes24.com/goods/122299243/L",
         "title": "2024 수제비 정보처리기사 필기 1권+2권 합본세트",
         "author": "윤영빈, 서용욱, 김학배, 박인상 저",
         "price": "31,500원",
         "url": "/Product/Goods/122299243"
+    },
+    {
+        "imageURL": "https://image.yes24.com/goods/125134920/L",
+        "title": "2024 수제비 정보처리기사 실기 FINAL 실전 모의고사",
+        "author": "윤영빈, 서용욱, 김학배, 박인상 저",
+        "price": "27,000원",
+        "url": "/Product/Goods/125134920"
     },
     {
         "imageURL": "https://image.yes24.com/goods/124624425/L",
@@ -203,10 +203,10 @@
         "url": "/Product/Goods/124039588"
     },
     {
-        "imageURL": "https://image.yes24.com/goods/125134920/L",
-        "title": "2024 수제비 정보처리기사 실기 FINAL 실전 모의고사",
+        "imageURL": "https://image.yes24.com/goods/122299243/L",
+        "title": "2024 수제비 정보처리기사 필기 1권+2권 합본세트",
         "author": "윤영빈, 서용욱, 김학배, 박인상 저",
-        "price": "27,000원",
-        "url": "/Product/Goods/125134920"
+        "price": "31,500원",
+        "url": "/Product/Goods/122299243"
     }
 ]
