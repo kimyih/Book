@@ -30,20 +30,20 @@ jobs:
         pip install webdriver_manager
     - name: Run Python scripts
       run: |
-        # python3 pyYes24_Geonseol_.py
-        # python3 pyYes24_Hansik_.py
-        # python3 pyYes24_IIban_.py
-        # python3 pyYes24_Jegwa_.py
-        # python3 pyYes24_JeongboGineung_.py
-        # python3 pyYes24_JeongboGisa_.py
-        # python3 pyYes24_JeongiGisa_.py
-        # python3 pyYes24_JeongiSaneop_.py
-        # python3 pyYes24_Jeppang_.py
-        # python3 pyYes24_Jige_.py
-        # python3 pyYes24_Makeup_.py
-        # python3 pyYes24_Nail_.py
-        # python3 pyYes24_Pibu_.py
-        # python3 pyYes24_Sobang_.py
+        python3 pyYes24_Geonseol_.py
+        python3 pyYes24_Hansik_.py
+        python3 pyYes24_IIban_.py
+        python3 pyYes24_Jegwa_.py
+        python3 pyYes24_JeongboGineung_.py
+        python3 pyYes24_JeongboGisa_.py
+        python3 pyYes24_JeongiGisa_.py
+        python3 pyYes24_JeongiSaneop_.py
+        python3 pyYes24_Jeppang_.py
+        python3 pyYes24_Jige_.py
+        python3 pyYes24_Makeup_.py
+        python3 pyYes24_Nail_.py
+        python3 pyYes24_Pibu_.py
+        python3 pyYes24_Sobang_.py
 
         python3 pyAladin_Geonseol_.py
         python3 pyAladin_Hansik_.py
@@ -65,20 +65,20 @@ jobs:
       run : |
         git config --global user.email "wlsakf23@gmail.com"
         git config --global user.name "kimyih"
-        # git add Yes24/Geonseol/Geonseol_*.json
-        # git add Yes24/Hansik/Hansik_*.json
-        # git add Yes24/IIban/IIban_*.json
-        # git add Yes24/Jegwa/Jegwa_*.json
-        # git add Yes24/JeongboGineung/JeongboGineung_*.json
-        # git add Yes24/JeongboGisa/JeongboGisa_*.json
-        # git add Yes24/JeongiGisa/JeongiGisa_*.json
-        # git add Yes24/JeongiSaneop/JeongiSaneop_*.json
-        # git add Yes24/Jeppang/Jeppang_*.json
-        # git add Yes24/Jige/Jige_*.json
-        # git add Yes24/Makeup/Makeup_*.json
-        # git add Yes24/Nail/Nail_*.json
-        # git add Yes24/Pibu/Pibu_*.json
-        # git add Yes24/Sobang/Sobang_*.json
+        git add Yes24/Geonseol/Geonseol_*.json
+        git add Yes24/Hansik/Hansik_*.json
+        git add Yes24/IIban/IIban_*.json
+        git add Yes24/Jegwa/Jegwa_*.json
+        git add Yes24/JeongboGineung/JeongboGineung_*.json
+        git add Yes24/JeongboGisa/JeongboGisa_*.json
+        git add Yes24/JeongiGisa/JeongiGisa_*.json
+        git add Yes24/JeongiSaneop/JeongiSaneop_*.json
+        git add Yes24/Jeppang/Jeppang_*.json
+        git add Yes24/Jige/Jige_*.json
+        git add Yes24/Makeup/Makeup_*.json
+        git add Yes24/Nail/Nail_*.json
+        git add Yes24/Pibu/Pibu_*.json
+        git add Yes24/Sobang/Sobang_*.json
 
         git add Aladin/Geonseol/Geonseol_*.json
         git add Aladin/Hansik/Hansik_*.json
