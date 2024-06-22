@@ -30,16 +30,9 @@ browser = webdriver.Chrome(service=service, options=options)
 browser.get('https://www.aladin.co.kr/search/wsearchresult.aspx?SearchTarget=All&SearchWord=%EC%86%8C%EB%B0%A9%EC%84%A4%EB%B9%84%EA%B8%B0%EC%82%AC')
 
 # 페이지가 완전히 로드될 때까지 대기
-try:
-    WebDriverWait(browser, 20).until(
-        EC.presence_of_element_located((By.ID, "Search3_Result"))
-    )
-    # 추가 대기 시간
-    time.sleep(5)
-except Exception as e:
-    print("페이지 로드 시간 초과:", e)
-    browser.quit()
-    exit()
+WebDriverWait(browser, 10).until(
+    EC.presence_of_element_located((By.ID, "Search3_Result"))
+)
 
 # 업데이트된 페이지 소스를 변수에 저장
 html_source_updated = browser.page_source
@@ -52,41 +45,43 @@ book_data = []
 tracks = soup.select("#Search3_Result .ss_book_box")
 
 for track in tracks:
+    title = track.select_one(".bo3").text.strip() if track.select_one(".bo3") else 'No title'
+    price = track.select_one(".ss_p2").text.strip() if track.select_one(".ss_p2") else 'No price'
+    
     # 이미지 파일 추출
     image_element = track.select_one(".flipcover_in img:nth-of-type(2)")
     if not image_element:  # nth-of-type(2)가 없을 경우 첫 번째 이미지 선택
         image_element = track.select_one(".flipcover_in img")
-    image_url = image_element.get('src') if image_element else None
-    if not image_element: #nth-of-type(1)가 없을 때 flipcover_in lcover_none
+    if not image_element:  # nth-of-type(1)가 없을 때 flipcover_in lcover_none
         image_element = track.select_one(".flipcover_in lcover_none img")
     if not image_element:  # flipcover_in img가 없을 경우 cover_area_other img 선택
         image_element = track.select_one(".cover_area_other img")
-        image_url = image_element.get('src') if image_element else None
+        
+    image_url = image_element.get('src') if image_element else None  # src에서 이미지 URL 가져오기
+    link_element = track.select_one(".cover_area a")  # 링크 요소 가져오기
+    href = link_element.get('href') if link_element else None  # href 속성 가져오기
 
-    # 책 제목 추출
-    title_element = track.select_one(".bo3")
-    title = title_element.text.strip() if title_element else 'No title'
-
-    # 가격 추출
-    price_element = track.select_one(".ss_p2")
-    price = price_element.get_text(strip=True).replace('\n', '') if price_element else 'No price'
-
-    # URL 추출
-    url_element = track.select_one(".cover_area a")
-    url = url_element['href'] if url_element else 'No URL'
+    # 저자 이름 추출 (ss_book_list 안의 3번째 li 요소의 첫 번째 a 링크)
+    author_element = track.select_one(".ss_book_list li:nth-of-type(3) a")
+    author = author_element.text.strip() if author_element else 'No author'
 
     book_data.append({
         "title": title,
         "imageURL": image_url,
         "price": price,
-        "url": url
+        "url": href,
+        "author": author
     })
 
 print(book_data)
 
 # 데이터를 JSON 파일로 저장
-with open(filename, 'w', encoding='utf-8') as f:
-    json.dump(book_data, f, ensure_ascii=False, indent=4)
+if book_data:  # 데이터가 비어있지 않은 경우에만 저장
+    with open(filename, 'w', encoding='utf-8') as f:
+        json.dump(book_data, f, ensure_ascii=False, indent=4)
+else:
+    print("No data to save.")
 
 # 브라우저 종료
 browser.quit()
+
